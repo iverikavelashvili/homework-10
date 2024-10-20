@@ -1,0 +1,51 @@
+/* 480-320 */
+@media(max-width: 480px) {
+
+    /* header */
+    header {
+        padding: 18px 8px;
+    }
+
+    .header_section_nav {
+        display: none;
+    }
+
+    /* section 1 */
+    .section_1 {
+        padding-top: 60px;
+        height: 320px;
+    }
+
+    .section_1_h2 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    .section_1_icone {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* section 2 */
+    .section_2 {
+        padding-inline: 8px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    /* footer */
+    footer {}
+
+    .footer_section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        align-items: center;
+    }
+}
